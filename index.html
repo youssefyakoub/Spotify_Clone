@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Cloning</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="imges/spotify.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="page">
+      <div class="topOfPage">
+        <div class="header">
+          <ul>
+            <li class="mainLogo">
+              <a href="#"><img src="imges/spotify.svg" alt="Spotify" /></a>
+            </li>
+            <li>
+              <ul class="">
+                <li class="houseLogo">
+                  <a href="#"
+                    ><img src="imges/icons8-home-48.svg" alt="Home"
+                  /></a>
+                </li>
+                <li class="searchBar">
+                  <ul class="searchBarItem">
+                    <li class="searchIcon">
+                      <a href="#"
+                        ><img src="imges/icons8-search.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <input
+                        type="text"
+                        class="inputBar"
+                        placeholder="What do you want to play?"
+                      />
+                    </li>
+                    <li class="verticalSearchLine"></li>
+                    <li class="fileLogoSearchBar">
+                      <a href="#"><img src="imges/file.png" alt="" /></a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="signUpAndIn">
+                <li class="signUp">Sign up</li>
+                <li class="logIn">Log in</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="allContent">
+        <div class="leftSection">
+          <div class="librarySection">
+            <div class="libraryLogo">
+              <a href="#">
+                <img src="imges/lib.png" alt="Your Library" />
+                <span>Your Library</span>
+              </a>
+            </div>
+
+            <div class="plusLogo">
+              <a href="#">
+                <span>+</span>
+              </a>
+            </div>
+          </div>
+          <div class="createProfileList">
+            <ul>
+              <li class="createTextHead">
+                <h3>Create your first playlist</h3>
+              </li>
+              <li><p class="createParagraph">It's easy, we'll help you</p></li>
+              <li>
+                <a href="#" class="buttonCreateList"
+                  ><span>Create playlist</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="SearchForPodcast">
+            <ul>
+              <li class="createTextHead">
+                <h3>Let's find some podcasts to follow</h3>
+              </li>
+              <li>
+                <p class="createParagraph">
+                  We'll keep you updated on new episodes
+                </p>
+              </li>
+              <li>
+                <a href="#" class="buttonBrowse"
+                  ><span>Browse podcasts</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="linksSection">
+            <ul>
+              <li><a href="#">Legal</a></li>
+              <li><a href="#">Safety & Privacy Center</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">About Ads</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <br />
+              <li><a href="#" class="cookiesLink">Cookies</a></li>
+            </ul>
+          </div>
+          <div class="languageButton">
+            <div class="borderLanguage">
+              <img src="imges/earth.png" alt="" />
+              <span>English</span>
+            </div>
+          </div>
+        </div>
+        <div class="rightSection">
+          <div class="container">
+            <div class="popularArtists">
+              <span class="spanHeader">Popular artists</span>
+              <span class="spanShowAll"><a href="#">Show all</a></span>
+              <ul class="artistProfiles">
+                <li class="borderBoxForSinger">
+                  <a href="">
+                    <img src="imges/player.png" alt="" class="playerIcon">
+                    <img src="imges/singer/1.png" alt="" />
+                    <span class="artistName">Bahaa Sultan</span>
+                    <span class="artistOfAll">Artist</span>
+                  </a>
+                </li>
+                <li class="borderBoxForSinger">
+                  <a href="">
+                    <img src="imges/player.png" alt="" class="playerIcon">
+                    <img src="imges/singer/2.png" alt="" />
+                    <span class="artistName">Tamer Ashour</span>
+                    <span class="artistOfAll">Artist</span>
+                  </a>
+                </li>
+                <li class="borderBoxForSinger">
+                  <a href="">
+                    <img src="imges/player.png" alt="" class="playerIcon">
+                    <img src="imges/singer/3.png" alt="" />
+                    <span class="artistName">Amr Diab</span>
+                    <span class="artistOfAll">Artist</span>
+                  </a>
+                </li>
+                <li class="borderBoxForSinger">
+                  <a href="">
+                    <img src="imges/player.png" alt="" class="playerIcon">
+                    <img src="imges/singer/4.png" alt="" />
+                    <span class="artistName">Ramy Sabry</span>
+                    <span class="artistOfAll">Artist</span>
+                  </a>
+                </li>
+                <li class="borderBoxForSinger">
+                  <a href="">
+                    <img src="imges/player.png" alt="" class="playerIcon">
+                    <img src="imges/singer/5.png" alt="" />
+                    <span class="artistName">Essam Sasa</span>
+                    <span class="artistOfAll">Artist</span>
+                  </a>
+                </li>
+              </ul>
+              <div class="divClear"></div>
+            </div>
+            <div class="popularAlbums">
+              <span class="spanHeaderAlbum">Popular albums and singer</span>
+              <span class="spanShowAllAlbum"><a href="#">Show all</a></span>
+              <ul class="artistProfiles">
+                <li class="borderBoxForAlbums">
+                  <a href="">
+                    <img src="imges/player.png" alt="" class="playerIcon">
+                    <img src="imges/singer/11.png" alt="" />
+                    <span class="artistName">كوكتيل غنائي للفنان تووليت حصريا لحبايب</span>
+                    <span class="artistOfAll">Artist</span>
+                  </a>
+                </li>
+                <li class="borderBoxForAlbums">
+                  <a href="">
+                    <img src="imges/player.png" alt="" class="playerIcon">
+                    <img src="imges/singer/12.png" alt="" />
+                    <span class="artistName">Roma</span>
+                    <span class="artistOfAll">Cariokee</span>
+                  </a>
+                </li>
+                <li class="borderBoxForAlbums">
+                  <a href="">
+                    <img src="imges/player.png" alt="" class="playerIcon">
+                    <img src="imges/singer/13.png" alt="" />
+                    <span class="artistName">افضل أغاني 2024</span>
+                    <span class="artistOfAll">Afroto</span>
+                  </a>
+                </li>
+                <li class="borderBoxForAlbums">
+                  <a href="">
+                    <img src="imges/player.png" alt="" class="playerIcon">
+                    <img src="imges/singer/14.png" alt="" />
+                    <span class="artistName">Tegy Ntrahn</span>
+                    <span class="artistOfAll">Tamer Ashour</span>
+                  </a>
+                </li>
+                <li class="borderBoxForAlbums">
+                  <a href="">
+                    <img src="imges/player.png" alt="" class="playerIcon">
+                    <img src="imges/singer/15.png" alt="" />
+                    <span class="artistName">Who (Remixes)</span>
+                    <span class="artistOfAll">Jimin</span>
+                  </a>
+                </li>
+              </ul>
+              <div class="divClear"></div>
+            </div>
+            <div class="popularRadio">
+              <div class="popularAlbums">
+                <span class="spanHeaderRadio">Popular radio</span>
+                <span class="spanShowAllRadio"><a href="#">Show all</a></span>
+                <ul class="artistProfiles">
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/21.png" alt="" />
+                      <span class="artistOfAll">With Ramy Sabry,</span>
+                      <span class="artistOfAll">Wael Jassar,...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/22.png" alt="" />
+                      <span class="artistOfAll">With Ahmed Saad,</span>
+                      <span class="artistOfAll">Ramy Sabry,...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/23.png" alt="" />
+                      <span class="artistOfAll">With Bahaa Sultan,</span>
+                      <span class="artistOfAll">Mohamed Hamaki...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/24.png" alt="" />
+                      <span class="artistOfAll">With Tamer Ashour,</span>
+                      <span class="artistOfAll">Ramy Gamal,...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/25.png" alt="" />
+                      <span class="artistOfAll">With Afroto,</span>
+                      <span class="artistOfAll">Marwan Moussa,...</span>
+                    </a>
+                  </li>
+                </ul>
+                <div class="divClear"></div>
+              </div>
+            </div>
+            <div class="FeatureCharts">
+              <div class="popularAlbums">
+
+                <span class="spanHeaderFeatureCharts">Featured Charts</span>
+                <span class="spanShowAllFeatureCharts"><a href="#">Show all</a></span>
+                <ul class="artistProfiles">
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/31.png" alt="" />
+                      <span class="artistOfAll">Your weekly</span>
+                      <span class="artistOfAll">update of the mo...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/32.png" alt="" />
+                      <span class="artistOfAll">Your weekly</span>
+                      <span class="artistOfAll">update of the mo...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/33.png" alt="" />
+                      <span class="artistOfAll">Your daily update</span>
+                      <span class="artistOfAll">of the most playe...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/34.png" alt="" />
+                      <span class="artistOfAll">Your daily update</span>
+                      <span class="artistOfAll">of the most playe...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/35.png" alt="" />
+                      <span class="artistOfAll">Your daily update</span>
+                      <span class="artistOfAll">of the most viral...</span>
+                    </a>
+                  </li>
+                </ul>
+                <div class="divClear"></div>
+              </div>
+            </div>
+
+            <div class="ourEditrs">
+              <div class="playLists"><div class="popularAlbums">
+              
+                <span class="spanHeaderOurEdits">Playlists from our editors</span>
+                <span class="spanShowAllOurEdits"><a href="#">Show all</a></span>
+                <ul class="artistProfiles">
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/41.png" alt="" />
+                      <span class="artistOfAll">The perfect</span>
+                      <span class="artistOfAll">soundtrack to...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/42.png" alt="" />
+                      <span class="artistOfAll">All your favourite</span>
+                      <span class="artistOfAll">holiday jazz classi...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/43.png" alt="" />
+                      <span class="artistOfAll">Soft electronic</span>
+                      <span class="artistOfAll">music for your...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/44.png" alt="" />
+                      <span class="artistOfAll">'Tis the season to</span>
+                      <span class="artistOfAll">settle in with a...</span>
+                    </a>
+                  </li>
+                  <li class="borderBoxForAlbums">
+                    <a href="">
+                      <img src="imges/player.png" alt="" class="playerIcon">
+                      <img src="imges/singer/45.png" alt="" />
+                      <span class="artistOfAll">An uplifting yet</span>
+                      <span class="artistOfAll">tasteful dinner...</span>
+                    </a>
+                  </li>
+                </ul>
+                <div class="divClear"></div>
+              </div>
+            </div>
+            <div class="info">
+              <ul class="infoList">
+                <li class="listHead"><span>Company</span></li>
+                <li class="listLink" ><a href="#">About</a></li>
+                <li class="listLink"><a href="#">Jobs</a></li>
+                <li class="listLink"><a href="#">For the Record</a></li>
+              </ul>
+              <ul >
+                <li class="listHead"><span>Communities</span></li>
+                <li class="listLink" ><a href="#">For Artists</a></li>
+                <li class="listLink"><a href="#">Developers</a></li>
+                <li class="listLink"><a href="#">Advertising</a></li>
+                <li class="listLink"><a href="#">Investors</a></li>
+                <li class="listLink"><a href="#">Vendors</a></li>
+              </ul>
+              <ul>
+                <li class="listHead"><span>Useful links</span></li>
+                <li class="listLink" ><a href="#">Support</a></li>
+                <li class="listLink"><a href="#">Free Mobile App</a></li>
+              </ul>
+              <ul>
+                <li class="listHead"><span>Spotify Plans</span></li>
+                <li class="listLink" ><a href="#">Premium</a></li>
+                <li class="listLink"><a href="#">Individual</a></li>
+                <li class="listLink"><a href="#">Premium Dou</a></li>
+                <li class="listLink"><a href="#">Premium Family</a></li>
+                <li class="listLink"><a href="#">Premium Student</a></li>
+                <li class="listLink"><a href="#">Spotify Free</a></li>
+
+              </ul>
+              <ul class="socialMediaSites">
+                <li><a href="#"><img src="imges/icons8-instagram.svg" alt=""></a></li>
+                <li><a href="#"><img src="imges/icons8-twitter.svg" alt=""></a></li>
+                <li><a href="#"><img src="imges/icons8-facebook.svg" alt=""></a></li>
+              </ul>
+              <hr>
+              <span class="spotifyLabel">© 2024 Spotify AB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
