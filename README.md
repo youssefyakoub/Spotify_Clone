@@ -7,7 +7,9 @@ This is the browser configuration I used while working on it.
 Thank you!
 
 [My Website :]
+
 (https://spotify-clone1255.netlify.app/)
 
 [The Original one :]
+
 (https://open.spotify.com/)
